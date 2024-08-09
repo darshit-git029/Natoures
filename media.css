@@ -1,0 +1,1374 @@
+/* 320px to 767px */
+@media (min-width: 320px) and (max-width: 767px) {
+    html {
+        font-size: 50%;
+        overflow-x: hidden;
+
+    }
+
+    .navigation__button {
+        top: 4%;
+        right: 7%;
+    }
+
+    .heading-primary--main {
+
+        font-size: 4rem;
+        font-weight: 400;
+        letter-spacing: 1.5rem;
+        text-align: center;
+    }
+
+    .heading-primary--sub {
+        font-size: 1.5rem;
+        letter-spacing: 0.5rem;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15rem;
+    }
+
+    .img {
+        margin-left: 1rem;
+    }
+
+    .img-2 {
+        right: 3%;
+        top: -8rem;
+    }
+
+    .heading-secondery {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .heading-text-row {
+        font-size: 2rem;
+    }
+
+    .paragraph {
+        font-size: 1.5rem;
+    }
+
+    .btn-text {
+        font-size: 1.8rem;
+    }
+
+    .card-price-box {
+        text-align: center;
+        margin-bottom: 0rem;
+        color: #fff;
+    }
+
+    .card-back-side {
+        transform: rotateY(0);
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+        height: 27rem;
+
+    }
+
+    .about {
+        background-color: #fff;
+        margin-top: -25vh;
+        padding: 25rem 0 5rem 0;
+    }
+
+    .row-footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-1 {
+        margin-left: 2rem;
+        margin-right: 2rem;
+
+    }
+
+    .footer-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        border-top: #777 1px solid;
+        padding-left: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    .footer-dec {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    /*row features*/
+    .row-features {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .heading-tertiary {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+    /*row tours*/
+    .row-tours {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 10rem;
+    }
+
+    .card {
+        height: auto;
+        border-radius: 3px;
+        background-color: #fff;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    }
+
+    .slide-card {
+        height: 52rem;
+        transition: all .8s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    }
+
+    .card-list {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0.8rem;
+        border-bottom: 1px #eee solid;
+    }
+
+    .card__heading {
+        font-size: 2.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: #fff;
+        position: absolute;
+        top: 12.5rem;
+        right: 2.2rem;
+        width: 65%;
+    }
+
+    .card-picture {
+        height: 22rem;
+    }
+
+    .slide-card {
+        height: 45rem;
+        position: relative;
+    }
+
+    .card-back-side {
+        transform: rotateY(0);
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+        height: 27rem;
+    }
+
+    .card:hover .card-inner {
+        transform: rotateY(0);
+
+    }
+
+    /*story section*/
+
+    .story {
+        transform: skew(-0deg);
+        flex-wrap: wrap;
+    }
+
+    .story-shape {
+        transform: translateX(-3rem) skewX(0);
+        width: 15rem;
+        height: 14rem;
+        margin-left: 7rem;
+        margin-bottom: 2rem;
+    }
+
+    .story-text {
+        transform: skewX(0deg);
+    }
+
+    .text {
+        color: white;
+        font-size: 1.7rem;
+    }
+
+    /*form sectino*/
+
+    .book {
+        background-size: 105rem;
+    }
+
+    .from {
+        margin-left: 1rem;
+    }
+
+    .book-from {
+        width: 80%;
+        padding: 4rem;
+    }
+
+    .from-input {
+        font-size: 1.5rem;
+    }
+
+    .radio-group {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .form-detail.radio {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .small-group {
+        margin-left: 1rem;
+        text-decoration: none;
+        color: #777;
+        margin-top: 20px;
+    }
+
+    .navigation__list {
+        margin-left: -2rem;
+    }
+}
+
+/*427 to 766 px */
+@media(min-width:425px) and (max-width:767px) {
+    html {
+        font-size: 50%;
+    }
+
+    .navigation__button {
+        top: 4.5%;
+        right: 7%;
+    }
+
+    .slide-card {
+        height: 45rem;
+        position: relative;
+        max-width: 40rem;
+        margin-left: 4rem;
+        margin-right: 2rem;
+    }
+
+    .card-back-side {
+        transform: rotateY(0);
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+        height: 30rem;
+    }
+
+    .card:hover .card-inner {
+        transform: rotateY(0);
+
+    }
+
+    .card-price-box {
+        text-align: center;
+        margin-bottom: 0rem;
+        color: #fff;
+    }
+
+    .story-shape {
+        margin-left: 11rem;
+    }
+}
+
+/* 768px tp 900px */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    html {
+        font-size: 50%;
+    }
+
+    .navigation__button {
+        top: 4%;
+        right: 4%;
+    }
+
+    .header__logo-box {
+        top: 1.5rem;
+        left: 2rem;
+    }
+
+    .heading-primary--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 4rem;
+        text-align: center;
+    }
+
+    .heading-primary--sub {
+        font-size: 2.3rem;
+        letter-spacing: 1.7rem;
+        text-align: center;
+
+    }
+
+    .btn {
+        font-size: 1.2rem;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15rem;
+        max-width: 50%;
+        padding: 3rem;
+        margin-left: 20rem;
+    }
+
+    .img {
+        margin-left: 1rem;
+    }
+
+    .img-2 {
+        right: 3%;
+        top: -8rem;
+    }
+
+    .heading-secondery {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .heading-text-row {
+        font-size: 2rem;
+    }
+
+    .paragraph {
+        font-size: 1.5rem;
+    }
+
+    .btn-text {
+        font-size: 1.8rem;
+    }
+
+    .about {
+        background-color: #fff;
+        margin-top: -20vh;
+        padding: 25rem 0;
+    }
+
+
+    /*features section*/
+    .row-features {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .row-features {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0rem;
+    }
+
+    .features-box {
+        width: 100%;
+    }
+
+    .heading-tertiary {
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    /*TOURS SECTION*/
+
+    .row-tours {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 10rem;
+    }
+
+    .card {
+        height: auto;
+        border-radius: 3px;
+        background-color: #fff;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    }
+
+    .card-inner {
+        width: 45%;
+        height: 100%;
+        margin-left: 25rem;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 0.7s;
+    }
+
+    .slide-card {
+        height: 52rem;
+        transition: all .8s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    }
+
+    .card-list {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0.8rem;
+        border-bottom: 1px #eee solid;
+    }
+
+    .card__heading {
+        font-size: 2.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: #fff;
+        position: absolute;
+        top: 12.5rem;
+        right: 2.2rem;
+        width: 65%;
+    }
+
+    .card-picture {
+        height: 22rem;
+    }
+
+    .slide-card {
+        height: 45rem;
+        position: relative;
+    }
+
+    .card-back-side {
+        transform: rotateY(0);
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+        height: 30rem;
+    }
+
+    .card:hover .card-inner {
+        transform: rotateY(0);
+
+    }
+
+    .card-price-box {
+        text-align: center;
+        margin-bottom: 0rem;
+        color: #fff;
+    }
+
+    /*STORY SECTION*/
+
+    .story-shape {
+        position: relative;
+        height: 15rem;
+        float: left;
+        transform: translateX(-3rem) skewX(12deg);
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-left: 4rem;
+        width: 16rem;
+    }
+
+    .story {
+        width: 55%;
+        margin: 5rem auto;
+        box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 3px;
+        padding: 3rem;
+        padding-left: 3rem;
+        font-size: 1.6rem;
+        transform: skewX(-12deg);
+        display: block;
+        top: 10%;
+        transition: all 0.4s ease-out;
+    }
+
+    .story-des {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        unicode-bidi: isolate;
+
+    }
+
+    .text {
+        font-size: 1.5rem;
+    }
+
+    .row-footer {
+        grid-template-columns: 1fr;
+        margin-left: 22rem;
+        max-width: 50%;
+    }
+
+    .footer-link {
+        font-size: 1.5rem;
+    }
+
+    .footer-dec {
+        font-size: 1.5rem;
+    }
+
+    .footer-logo {
+        width: 20rem;
+    }
+
+}
+
+/*901px to 1023px */
+@media(min-width:901px) and (max-width:1023px) {
+    .about {
+        background-color: #fff;
+        margin-top: -30vh;
+        padding: 25rem 0 0 0;
+    }
+
+    .row-footer {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*1024px to 1440px*/
+
+@media(min-width:1024px) and (max-width:1440px) {
+    html {
+        font-size: 100%;
+    }
+
+    .heading-primary--sub {
+        font-size: 1.1rem;
+    }
+
+    .heading-primary--main {
+        font-size: 3.375rem;
+    }
+
+    .about {
+        background-color: #fff;
+        margin-top: -30vh;
+        padding: 25rem 0 5rem 0;
+    }
+
+    .row-tours {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .heading-tertiary {
+        font-size: 0.8rem;
+    }
+
+    .form-detail.radio {
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        gap: 0.9rem;
+    }
+
+    .book {
+        background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+        background-size: 83rem;
+        background-repeat: no-repeat;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+        height: 33rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        object-fit: cover;
+    }
+
+    .footer-list {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        border-top: #777 1px solid;
+        padding-left: 0.5rem;
+        padding-top: 1rem;
+        margin-right: 1rem;
+        gap: 0.9rem;
+        width: 25rem;
+    }
+
+    .footer-link:link,
+    .footer-link:visited {
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: #fff;
+        text-transform: uppercase;
+        display: inline-block;
+        transition: all 0.2s;
+    }
+
+    /* .footer-logo-box{
+        width: 100%;
+    } */
+
+    /*TOURS*/
+    .row-tours {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 4rem;
+        margin-bottom: 3rem;
+        margin-left: 0rem;
+    }
+
+    .card {
+        height: auto;
+        border-radius: 3px;
+        background-color: #fff;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    }
+
+    .card-inner {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 0.7s;
+    }
+
+    .slide-card {
+        height: 52rem;
+        transition: all .8s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    }
+
+
+    .card-picture {
+        height: 12rem;
+    }
+
+    .card:hover .card-inner {
+        transform: rotateY(0);
+
+    }
+
+    .card__heading {
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: #fff;
+        position: absolute;
+        top: 7.5rem;
+        right: 1.2rem;
+        width: 65%;
+    }
+
+    .card-list {
+        text-align: center;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-bottom: 1px #eee solid;
+        width: 100%;
+    }
+
+    .card-item {
+        list-style: none;
+        width: 100%;
+        margin-left: -3rem;
+    }
+
+    .slide-card {
+        height: 31rem;
+        position: relative;
+    }
+
+    .price-only {
+        font-size: 1rem;
+        text-transform: uppercase;
+
+    }
+
+    .price-value {
+        font-size: 3rem;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+
+        font-weight: 100;
+    }
+
+    .btn,
+    .btn:link,
+    .btn:visited {
+        padding: 0.7rem 2rem;
+    }
+
+    .card-back-side {
+        transform: rotateY(0);
+        height: 18rem;
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+
+    }
+
+    .card-price-box {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #fff;
+    }
+}
+
+/*for 1240px width*/
+@media(min-width:1240px) {
+
+    .about {
+        margin-top: -45vh;
+
+    }
+
+    .row-tours {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5rem;
+    }
+
+    .footer-list {
+
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-top: #777 1px solid;
+        padding-left: 1.5rem;
+        padding-top: 1rem;
+        margin-right: 0rem;
+        width: 30rem;
+    }
+
+    .footer-link:link,
+    .footer-link:visited {
+        text-decoration: none;
+        font-size: 0.9rem;
+        color: #fff;
+        text-transform: uppercase;
+        display: inline-block;
+        transition: all 0.2s;
+    }
+
+    .footer-link:hover,
+    .footer-link:active {
+        color: #28b485;
+        transform: rotate(5deg) scale(1.3);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    }
+
+    /* .footer__logo{
+        width: 100%;
+    } */
+
+    .row-tours {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5rem;
+        margin-left: 2rem;
+    }
+
+    .tours-heading {
+        margin-bottom: 5rem;
+        text-align: center;
+        transition: all 0.4s;
+    }
+
+    .tours-heading:hover {
+        transform: scale(1.1);
+    }
+
+
+    .card {
+        perspective: 150rem;
+        position: relative;
+        height: 35rem;
+        perspective: 1000px;
+        margin-bottom: 7rem;
+    }
+
+    .front-card {
+        background-color: #fff;
+    }
+
+    .slide-card {
+        height: 35rem;
+        transition: all .8s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    }
+
+    .card-picture {
+        height: 14rem;
+        background-size: cover;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        background-blend-mode: screen;
+        position: relative;
+    }
+
+    .card-picture-1 {
+        background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg);
+        object-fit: cover;
+    }
+
+    .card-picture-2 {
+        background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/nat-6.jpg);
+        object-fit: cover;
+    }
+
+    .card-picture-3 {
+        background-image: linear-gradient(to right bottom, rgb(41, 152, 255), rgb(86, 67, 250)), url(../img/nat-7.jpg);
+        object-fit: cover;
+    }
+
+    .card__heading {
+        font-size: 1.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: #fff;
+        position: absolute;
+        top: 7.5rem;
+        right: 1.2rem;
+        width: 65%;
+    }
+
+    h4 {
+        display: block;
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        unicode-bidi: isolate;
+    }
+
+    .card__heading-span--1 {
+        background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
+    }
+
+    .card__heading-span--2 {
+
+        background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85));
+    }
+
+    .card__heading-span--3 {
+        background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85));
+    }
+
+    .card__heading-span {
+        padding: 0.6rem 1.1rem 1rem 1rem;
+        box-decoration-break: clone;
+        padding-right: 0.5rem;
+    }
+
+
+    .card-detail {
+        padding: 3rem;
+        padding-top: 1.5rem;
+    }
+
+    .card-item {
+        list-style: none;
+        width: 80%;
+        margin-left: -2rem;
+    }
+
+    .card-list {
+        text-align: center;
+        font-size: 0.99rem;
+        padding: 0.8rem;
+        border-bottom: 1px #eee solid;
+    }
+
+    .card:hover .card-inner {
+        transform: rotateY(180deg);
+
+    }
+
+    .card-inner {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 0.7s;
+    }
+
+    .card-back-side {
+        transform: rotateY(180deg);
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+
+    }
+
+    .card-back-side--1 {
+        background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+
+
+
+    }
+
+    .card-back-side--2 {
+        background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+
+    }
+
+    .card-back-side--3 {
+        background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+
+    }
+
+    .card-back-detail {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        text-align: center;
+    }
+
+    .card-price-box {
+        text-align: center;
+        margin-bottom: 8rem;
+        color: #fff;
+    }
+
+    .price-only {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
+
+    .price-value {
+        font-size: 4rem;
+        font-weight: 100;
+    }
+
+    .btn,
+    .btn:link,
+    .btn:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all .2s;
+        position: relative;
+        font-size: 1rem;
+        border: none;
+        cursor: pointer;
+    }
+
+
+    .btn--white {
+        background-color: #fff;
+        color: #777;
+    }
+
+    .btn::after {
+        content: "";
+        top: 0;
+        left: 0;
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        z-index: -1;
+        transition: all .4s;
+    }
+
+    .btn-tours {
+        text-align: center;
+        margin-bottom: 7rem;
+    }
+
+    .btn--green {
+        background-color: #55c57a;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .btn--green::after {
+        background-color: #28b485;
+    }
+
+}
+
+/*1440px to 1980px */
+@media(min-width:1440px) and (max-width:1980px) {
+    html {
+        font-size: 100%;
+    }
+
+    .about {
+        background-color: #fff;
+        margin-top: -20vh;
+        padding: 25rem 100px 25rem 100px;
+    }
+
+    .row-features {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 4rem;
+        position: relative;
+        transform: skewY(7deg);
+        text-align: center;
+        max-width: 114rem;
+        margin: 1px 7rem;
+        padding: 0rem;
+    }
+
+    .heading-tertiary {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    .row-tours {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+    }
+
+    .card {
+        height: auto;
+        width: 90%;
+        border-radius: 3px;
+        background-color: #fff;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    }
+
+    .card-inner {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 0.7s;
+    }
+
+    .slide-card {
+        height: 54rem;
+        transition: all .8s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    }
+
+    .card-picture {
+        height: 13rem;
+    }
+
+    .card:hover .card-inner {
+        transform: rotateY(0);
+
+    }
+
+    .card__heading {
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: #fff;
+        position: absolute;
+        top: 7.5rem;
+        right: 1.2rem;
+        width: 65%;
+    }
+
+    .card-list {
+        text-align: center;
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-bottom: 1px #eee solid;
+        width: 100%;
+    }
+
+    .card-item {
+        list-style: none;
+        width: 100%;
+        margin-left: -3rem;
+    }
+
+    .slide-card {
+        height: 31rem;
+        position: relative;
+    }
+
+    .price-only {
+        font-size: 1rem;
+        text-transform: uppercase;
+
+    }
+
+    .price-value {
+        font-size: 3rem;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+
+        font-weight: 100;
+    }
+
+    .btn,
+    .btn:link,
+    .btn:visited {
+        padding: 0.7rem 2rem;
+    }
+
+    .card-back-side {
+        transform: rotateY(0);
+        height: 18rem;
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+
+    }
+
+    .card-price-box {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #fff;
+    }
+
+    .story {
+        width: 55%;
+    }
+
+    .from-section {
+        padding: 10rem 10rem;
+        background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+    }
+
+    .from-input {
+        font-size: 1.1rem;
+    }
+
+    .fron-radio-label {
+        font-size: 1rem;
+        cursor: pointer;
+        position: relative;
+    }
+
+
+}
+
+/*1980px tp 2560px */
+@media(min-width:1980px) and (max-width:2560px) {
+    html {
+        font-size: 100%;
+    }
+
+    .navigation__button {
+        top: 3%;
+        right: 3%;
+    }
+
+    .navigation__link:link,
+    .navigation__link:visited {
+        font-size: 3.5rem;
+        width: 50rem;
+    }
+
+    .about {
+        margin-top: 10rem;
+        padding: 5rem 20rem 20rem 20rem;
+    }
+
+    .heading-secondery {
+        font-size: 3rem;
+    }
+
+    .heading-text-row {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.7rem;
+    }
+
+    .row-features {
+        margin: 0px 21rem
+    }
+
+    .heading-tertiary {
+        font-size: 1.8rem;
+    }
+
+    /*tours section*/
+
+    .row-tours {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        margin-bottom: 3rem;
+        margin-left: 20rem;
+        margin-right: 15rem;
+    }
+
+    .card {
+        height: auto;
+        width: 75%;
+    }
+
+    .slide-card {
+        height: 54rem;
+    }
+
+    .card-picture {
+        height: 13rem;
+    }
+
+    .card:hover .card-inner {
+        transform: rotateY(0);
+
+    }
+
+    .card__heading {
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: #fff;
+        position: absolute;
+        top: 7.5rem;
+        right: 1.2rem;
+        width: 50%;
+    }
+
+    .card-list {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0.8rem;
+        border-bottom: 1px #eee solid;
+        width: 100%;
+    }
+
+    .card-item {
+        list-style: none;
+        width: 100%;
+        margin-left: -3rem;
+    }
+
+    .slide-card {
+        height: 37rem;
+        position: relative;
+    }
+
+    .price-only {
+        font-size: 1rem;
+        text-transform: uppercase;
+
+    }
+
+    .price-value {
+        font-size: 3rem;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        font-weight: 100;
+    }
+
+    .btn,
+    .btn:link,
+    .btn:visited {
+        padding: 0.7rem 2rem;
+    }
+
+    .card-back-side {
+        transform: rotateY(0);
+        height: 27rem;
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .card-price-box {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #fff;
+    }
+
+    .story {
+        width: 50%;
+    }
+
+    .story-shape {
+        width: 45rem;
+        height: 12rem;
+    }
+
+    .from-section {
+        padding: 12rem 30rem;
+        background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+    }
+
+    .from-input {
+        font-size: 1.7rem;
+    }
+
+
+    .footer-link:link,
+    .footer-link:visited {
+        font-size: 1.2rem;
+    }
+
+    .footer-list {
+        width: 43rem;
+    }
+
+    .footer-1 {
+        margin-left: 27rem;
+    }
+
+    .footer-dec {
+        margin-right: 2rem;
+        font-size: 1.2rem;
+        width: 40rem;
+    }
+}
