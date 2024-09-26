@@ -1014,6 +1014,15 @@ footer {
     margin-top: 0rem;
 }
 
+/* General footer styles */
+.footer-logo-box {
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+
+
+
 
 /*Show Model*/
 .model {
